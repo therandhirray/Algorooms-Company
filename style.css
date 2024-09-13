@@ -292,10 +292,12 @@ nav{
     .upper_feature{
         width: 100%;
         max-height: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
-    /* .upper_feature p{
+    .upper_feature p{
         display: none;
-    } */
+    }
     .down_feature{
         width: 100%;
         max-height: auto;
