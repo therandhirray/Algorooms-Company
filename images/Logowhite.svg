@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 23.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1f59f0;
+      }
+
+      .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 15.8px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M16.92,22.18l-3.57-7.1c-.16-.32-.52-.49-.87-.42l-9.72,1.85c-1.24,.24-2.06-1.28-1.13-2.1,.03-.02,.06-.05,.09-.07L20.03,.5c1.02-.77,2.47,.06,2.28,1.31l-2.95,19.54c-.18,1.17-.74,1.77-1.72,1.45-.32-.1-.58-.33-.73-.63Z"/>
+  <text class="cls-3" transform="translate(24.69 17.12) scale(1.02 1)"><tspan x="0" y="0">Algo</tspan><tspan class="cls-2" x="38.62" y="0">r</tspan><tspan x="45.88" y="0">ooms</tspan></text>
+</svg>
