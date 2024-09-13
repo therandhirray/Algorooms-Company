@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+    
+}
 body{
     padding-top: 60px;
 }
@@ -52,6 +56,10 @@ nav{
     font-size: 13px;
     font-weight: 600;
 }
+.right_nav a{
+    text-decoration: none;
+    color: black;
+}
 .right_nav .nav_button{
     width: 125px;
     line-height: 20px;
@@ -91,14 +99,14 @@ nav{
 
 
 /* ********** Hero Section CSS Start ********** */
-
 .hero_section{
     width: 100%;
     height: 100vh;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    /* border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%; */
+    clip-path: ellipse(95% 95% at 50% 0%); /* Curve shape */
     position: relative;
 }
 .hero_section .leftherodiv{
@@ -150,8 +158,7 @@ nav{
     .hero_section{
         width: 100%;
         min-height: 100vh;
-        border-bottom-left-radius: 0%;
-        border-bottom-right-radius: 0%;
+        clip-path: ellipse(95% 95% at 50% 0%); /* Curve shape */
     }
     .leftherodiv{
         width: 80%;
@@ -748,6 +755,7 @@ nav{
     }
 }
 
+
 /* ********** AboutUs Section CSS Start ********** */
 .testimonial-section {
     display: flex;
@@ -819,14 +827,12 @@ nav{
     opacity: 0;
     animation: slideLeft 1s ease forwards;
 }
-
 .testimonial-text h3 {
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     margin-bottom: 10px;
 }
-
 .testimonial-text h2 {
     font-size: 40px;
     font-weight: 700;
@@ -850,15 +856,6 @@ nav{
         flex-direction: row;
         padding: 10px;
     }
-    /* .left-arrow, .right-arrow {
-        background-color: #306bca;
-        color: white;
-        border-radius: 50%;
-        padding: 8px;
-        cursor: pointer;
-        font-size: 30px;
-        margin: 8px;
-    } */
 }
 @media (max-width: 768px) {
     .testimonial-section{
@@ -1217,6 +1214,7 @@ nav{
     }
 }
 
+
 /* Base styles for larger screens (laptops/desktops) */
 .testimonial-section,
 .contact-section {
@@ -1393,7 +1391,6 @@ nav{
     text-align: center;
     font-size: 14px;
 }
-/* Small devices (phones, 480px and up) */
 @media (max-width: 480px) {
     .footer_section {
         padding: 40px 10px;
@@ -1425,7 +1422,6 @@ nav{
         font-size: 12px;
     }
 }
-/* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     .footer_top {
         flex-direction: column;
@@ -1452,7 +1448,6 @@ nav{
         font-size: 14px;
     }
 }
-
 
 
 /* ANIMATION STYLE */
@@ -1496,4 +1491,3 @@ nav{
         opacity: 1;
     }
 }
-
