@@ -104,9 +104,7 @@ nav{
     height: 100vh;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
-    /* border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%; */
-    clip-path: ellipse(95% 95% at 50% 0%); /* Curve shape */
+    clip-path: ellipse(95% 95% at 50% 0%);
     position: relative;
 }
 .hero_section .leftherodiv{
@@ -295,9 +293,9 @@ nav{
         width: 100%;
         max-height: auto;
     }
-    .upper_feature p{
+    /* .upper_feature p{
         display: none;
-    }
+    } */
     .down_feature{
         width: 100%;
         max-height: auto;
