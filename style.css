@@ -5,8 +5,7 @@
     font-family: sans-serif;
 }
 html{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;    
 }
 body{
     padding-top: 60px;
@@ -14,7 +13,6 @@ body{
 
 
 /* ********** Navbar CSS Start ********** */
-
 nav{
     height: 60px;
     width: 100%;
@@ -66,12 +64,13 @@ nav{
     display: flex;
     align-items: center;
     border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
     background-color: #4285F4;
+}
+.nav_button a{
     color: white;
     letter-spacing: 1px;
     font-weight: 200;
+    padding: 10px;
 }
 @media (max-width: 768px){
     nav{
@@ -139,11 +138,15 @@ nav{
     line-height: 24px;
     text-transform: uppercase;
     background-color: #4285F4;
-    color: white;
     border: none;
-    padding: 15px;
     border-radius: 5px;
     cursor: pointer;
+    padding: 15px 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
 }
 .hero_section .rightherodiv{
     width: 50%;
@@ -191,7 +194,6 @@ nav{
 
 
 /* ********** Features Section CSS Start ********** */
-
 .feature_section{
     width: 100%;
     height: auto;
@@ -206,7 +208,6 @@ nav{
     padding-top: 50px;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
-
 }
 .upper_feature h1{
     font-size: 40px;
@@ -223,7 +224,6 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-
 .down_feature{
     width: 100%;
     height: auto;
@@ -292,8 +292,6 @@ nav{
     .upper_feature{
         width: 100%;
         max-height: auto;
-        padding-bottom: 0;
-        margin-bottom: 0;
     }
     .upper_feature p{
         display: none;
@@ -343,7 +341,6 @@ nav{
 
 
 /* ********** Service Section CSS Start ********** */
-
 .service_section{
     width: 100%;
     min-height: 100vh;
@@ -371,7 +368,6 @@ nav{
     margin-right: auto;
     padding-bottom: 50px;
 }
-
 .down_service{
     width: 100%;
     height: auto;
@@ -392,7 +388,6 @@ nav{
     width: 50%;
     padding: 10px;
 }
-
 .down_right_srvc_top{
     width: 100%;
     height: auto;
@@ -620,7 +615,6 @@ nav{
     background-color: #4285F4;
     color: white;
 }
-
 .down_pricing{
     width: 100%;
     height: auto;
@@ -750,8 +744,7 @@ nav{
     }
     .down_pricing div{
         width: auto;
-        max-height: auto;
-        
+        max-height: auto;       
     }
 }
 
@@ -1115,7 +1108,6 @@ nav{
     .contact-form button{
         width: 100%;
     }
-
 } 
 @media (max-width: 768px) {
     .contact-section {

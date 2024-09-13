@@ -1,3 +1,4 @@
+// Our Pricing Plan 
 const toggleButtons = document.querySelectorAll('.toggle-button');
 
 toggleButtons.forEach(button => {
@@ -7,7 +8,7 @@ toggleButtons.forEach(button => {
     });
 });
 
-
+// Testimonial section
 const testimonials = document.querySelectorAll('.testimonial-card');
 const leftArrow = document.querySelector('.left-arrow');
 const rightArrow = document.querySelector('.right-arrow');
