@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Algorooms Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css">
 </head>
 <body>
-    <h1>Hello i am a Randhir</h1>
+
+    <div class="login-container">
+        <div class="login-left">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo images">
+            </div>
+            <img id="login_pic" src="images/login1.svg" alt="Login Illustration">
+            <h2>Welcome back!</h2>
+            <p>Login into your account to start adding strategies to your trades!</p>
+        </div>
+
+        <div class="login-right">
+            <h2>Welcome back!</h2>
+            <p>Login into your account to start adding strategies to your trades!</p>
+
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <i class="ri-mail-line"></i>
+                    <input type="text" placeholder="Email ID / Client ID" required>
+                </div>
+                <div class="input-group">
+                    <i class="ri-lock-fill"></i>
+                    <input type="password" placeholder="Password" required>
+                    <i id="seenpassword" class="ri-eye-off-line"></i>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="continue-btn">Continue</button>
+                <div class="or">
+                    <span>Or</span>
+                </div>
+                <button type="button" class="google-btn">
+                    <i class="ri-google-line"></i>
+                    Continue with Google
+                </button>
+            </form>
+
+            <p class="signup-text">Don't have an account? <a href="#">Sign Up</a></p>
+
+            <p class="footer-text">Charts powered by <a href="#">TradingView</a><br>Copyright © 2024 Algorooms. All rights reserved.</p>
+            
+        </div>
+    </div>
+
 </body>
 </html>
